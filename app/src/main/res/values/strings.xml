@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">FamilyApp</string>
+    <string name="happiest">Erittäin hyvä</string>
+    <string name="happy">Hyvä</string>
+    <string name="sad">Huono</string>
+    <string name="saddest">Erittäin huono</string>
 </resources>

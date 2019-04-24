@@ -13,6 +13,7 @@
         android:layout_marginStart="44dp"
         android:layout_marginLeft="44dp"
         android:layout_marginTop="32dp"
+        android:contentDescription="@string/happiest"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@tools:sample/avatars" />
@@ -23,6 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
         android:layout_marginLeft="28dp"
+        android:contentDescription="@string/happy"
         app:layout_constraintBottom_toBottomOf="@+id/mood_1"
         app:layout_constraintStart_toEndOf="@+id/mood_1"
         tools:srcCompat="@tools:sample/avatars" />
@@ -32,6 +34,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
+        android:contentDescription="@string/sad"
         app:layout_constraintStart_toStartOf="@+id/mood_1"
         app:layout_constraintTop_toBottomOf="@+id/mood_1"
         tools:srcCompat="@tools:sample/avatars" />
@@ -40,6 +43,7 @@
         android:id="@+id/Mood_4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/saddest"
         app:layout_constraintEnd_toEndOf="@+id/Mood_2"
         app:layout_constraintTop_toTopOf="@+id/Mood_3"
         tools:srcCompat="@tools:sample/avatars" />
